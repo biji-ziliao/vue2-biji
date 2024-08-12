@@ -1,8 +1,6 @@
 <template>
   <div class="app">
-    <BaseSelect
-      v-model="selectId"
-    ></BaseSelect>
+    <BaseSelect v-model="selectId"></BaseSelect>
   </div>
 </template>
 

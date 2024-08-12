@@ -2,9 +2,7 @@
   <div>
     <MyDialog></MyDialog>
 
-    <MyDialog>
-      你确认要退出么
-    </MyDialog>
+    <MyDialog>你确认要退出么</MyDialog>
   </div>
 </template>
 

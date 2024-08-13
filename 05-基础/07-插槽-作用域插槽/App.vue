@@ -3,9 +3,7 @@
     <MyTable :data="list">
       <!-- 3. 通过template #插槽名="变量名" 接收 -->
       <template #default="obj">
-        <button @click="del(obj.row.id)">
-          删除
-        </button>
+        <button @click="del(obj.row.id)">删除</button>
       </template>
     </MyTable>
     

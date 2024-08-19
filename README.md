@@ -1,5 +1,3 @@
-# vue-指令
-
 ### 模板语法
 
 创建一个 Vue 实例 [代码](https://github.com/biji-ziliao/vue2-biji/blob/0545a7c1908b198d4e3fdda2fb5812823e07ff11/01-%E6%8C%87%E4%BB%A4/01-%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAVue%E5%AE%9E%E4%BE%8B.html)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/0545a7c1908b198d4e3fdda2fb5812823e07ff11/01-%E6%8C%87%E4%BB%A4/01-%E7%AC%94%E8%AE%B0.md#%E4%B8%89%E5%88%9B%E5%BB%BAvue%E5%AE%9E%E4%BE%8B)
@@ -88,7 +86,7 @@ watch侦听器  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/02
 
 ### **生命周期**
 
-Vue生命周期钩子  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/02-%E5%9F%BA%E7%A1%80/15-%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B-%E8%B4%AD%E7%89%A9%E8%BD%A6/05-%E6%8C%81%E4%B9%85%E5%8C%96%E5%88%B0%E6%9C%AC%E5%9C%B0.html)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/02-%E5%9F%BA%E7%A1%80/02-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%9B%9B%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B)
+Vue生命周期钩子  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/01-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-%E5%9B%9B%E5%A4%A7%E9%98%B6%E6%AE%B5-%E5%85%AB%E4%B8%AA%E9%92%A9%E5%AD%90.html)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/03-%E7%AC%94%E8%AE%B0.md#%E4%BA%8Cvue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F)
 
 - 案例-小黑记账清单  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/04-%E5%B0%8F%E9%BB%91%E8%AE%B0%E8%B4%A6%E6%B8%85%E5%8D%95/04-%E5%B0%8F%E9%BB%91%E8%AE%B0%E8%B4%A6%E6%B8%85%E5%8D%95-%E9%A5%BC%E5%9B%BE%E6%B8%B2%E6%9F%93.html)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/03-%E7%AC%94%E8%AE%B0.md#%E4%BA%94%E6%A1%88%E4%BE%8B-%E5%B0%8F%E9%BB%91%E8%AE%B0%E8%B4%A6%E6%B8%85%E5%8D%95)
     
@@ -118,6 +116,8 @@ Vue生命周期钩子  [代码](https://github.com/biji-ziliao/vue2-biji/blob/ma
     
     - 初始化一个饼图 echarts.init(dom) mounted钩子中渲染
     - 根据数据试试更新饼图 echarts.setOptions({...})
+
+### 组件注册
 
 普通组件的注册使用-局部注册  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/05-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9B%B8%E5%85%B3%E4%BB%A3%E7%A0%81/vue-demo1/02-%E6%99%AE%E9%80%9A%E7%BB%84%E4%BB%B6%E7%9A%84%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C/App.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/03-%E5%9F%BA%E7%A1%80/03-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E6%99%AE%E9%80%9A%E7%BB%84%E4%BB%B6%E7%9A%84%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C)
 
@@ -258,3 +258,211 @@ MyTag组件进行v-model绑定  [代码](https://github.com/biji-ziliao/vue2-bij
 单页应用程序介绍   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%9B%9B%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BB%8B%E7%BB%8D)
 
 ### 路由介绍   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%BA%94%E8%B7%AF%E7%94%B1%E4%BB%8B%E7%BB%8D)
+
+路由的基本使用  [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%85%AD%E8%B7%AF%E7%94%B1%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+组件的存放目录问题  [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B8%83%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95%E9%97%AE%E9%A2%98)
+
+路由的基本使用步骤(5+2)  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/01-%E8%B7%AF%E7%94%B1%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4(5%2B2))     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+路由模块拆分  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/02-%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%9D%97%E6%8B%86%E5%88%86)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+router-link导航链接高亮  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/03-router-link%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E9%AB%98%E4%BA%AE)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+精确匹配和模糊匹配  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/04-%E7%B2%BE%E7%A1%AE%E5%8C%B9%E9%85%8D%E5%92%8C%E6%A8%A1%E7%B3%8A%E5%8C%B9%E9%85%8D/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+自定义高亮类名  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/05-%E8%87%AA%E5%AE%9A%E4%B9%89%E9%AB%98%E4%BA%AE%E7%B1%BB%E5%90%8D/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+导航链接传参1-查询参数传参  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/06-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%821-%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0%E4%BC%A0%E5%8F%82/views)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+导航链接传参2-动态路由传参  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+动态路由参数-可选符  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+路由重定向  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+路由404  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+路由模式  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+编程式导航-两种跳转语法  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+编程式导航-跳转传参演示  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
+### 0.1路由介绍   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%BA%94%E8%B7%AF%E7%94%B1%E4%BB%8B%E7%BB%8D)
+
+路由的基本使用  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/01-%E8%B7%AF%E7%94%B1%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E8%B7%AF%E7%94%B1)
+
+- 几个注意点
+    1. 路由组件通常存放在`pages|views`文件夹，一般组件通常存放在`components`文件夹。
+    2. 通过切换，“隐藏”了的路由组件，默认是被销毁掉的，需要的时候再去挂载。
+    3. 每个组件都有自己的`$route`属性，里面存储着自己的路由信息。
+    4. 整个应用只有一个 router，可以通过组件的`$router`属性获取到。
+
+多级路由  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/02-%E5%A4%9A%E7%BA%A7%E8%B7%AF%E7%94%B1/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%A4%9A%E7%BA%A7%E8%B7%AF%E7%94%B1%E5%A4%9A%E7%BA%A7%E8%B7%AF%E7%94%B1)
+
+路由的 query 参数  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/03-%E8%B7%AF%E7%94%B1%E7%9A%84query%E5%8F%82%E6%95%B0/pages/Message.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E8%B7%AF%E7%94%B1%E7%9A%84query%E5%8F%82%E6%95%B0)
+
+命名路由  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/04-%E5%91%BD%E4%BB%A4%E8%B7%AF%E7%94%B1/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%91%BD%E5%90%8D%E8%B7%AF%E7%94%B1)
+
+路由的 params 参数  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06.1-%E8%B7%AF%E7%94%B1/05-%E8%B7%AF%E7%94%B1%E7%9A%84params%E5%8F%82%E6%95%B0)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E8%B7%AF%E7%94%B1%E7%9A%84params%E5%8F%82%E6%95%B0)
+
+路由的 props 配置  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06.1-%E8%B7%AF%E7%94%B1/06-%E8%B7%AF%E7%94%B1%E7%9A%84props%E9%85%8D%E7%BD%AE)    [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E8%B7%AF%E7%94%B1%E7%9A%84props%E9%85%8D%E7%BD%AE)
+
+- `<router-link>`的 replace 属性
+    1. 作用：控制路由跳转时操作浏览器历史记录的模式
+    2. 浏览器的历史记录有两种写入方式：分别为`push`和`replace`，`push`是追加历史记录，`replace`是替换当前记录。路由跳转时候默认为`push`
+    3. 如何开启`replace`模式：`<router-link replace .......>News</router-link>`
+    
+
+编程式路由导航  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/08-%E7%BC%96%E7%A8%8B%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%AF%BC%E8%88%AA/pages/Message.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E7%BC%96%E7%A8%8B%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%AF%BC%E8%88%AA)
+
+缓存路由组件  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/09-%E7%BC%93%E5%AD%98%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6/pages/Home.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E7%BC%93%E5%AD%98%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6)
+
+- 路由生命周期钩子  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/10-%E4%B8%A4%E4%B8%AA%E6%96%B0%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%92%A9%E5%AD%90/pages/News.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E4%B8%A4%E4%B8%AA%E6%96%B0%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%92%A9%E5%AD%90)
+    1. 作用：路由组件所独有的两个钩子，用于捕获路由组件的激活状态。
+    2. 具体名字：
+        1. `activated`路由组件被激活时触发。
+        2. `deactivated`路由组件失活时触发。
+- 路由守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/06.1-%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB)
+    
+    作用：对路由进行权限控制
+    
+    全局守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/11-%E5%85%A8%E5%B1%80%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/router/index.js)、独享守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/12-%E7%8B%AC%E4%BA%AB%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/router/index.js)、组件内守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/13-%E7%BB%84%E4%BB%B6%E5%86%85%E9%83%A8%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/pages/About.vue)
+    
+- **路由器的两种工作模式**
+    1. 对于一个url来说，什么是hash值？—— #及其后面的内容就是hash值。
+    2. hash值不会包含在 HTTP 请求中，即：hash值不会带给服务器。
+    3. hash模式：
+        1. 地址中永远带着#号，不美观 。
+        2. 若以后将地址通过第三方手机app分享，若app校验严格，则地址会被标记为不合法。
+        3. 兼容性较好。
+    4. history模式：
+        1. 地址干净，美观 。
+        2. 兼容性和hash模式相比略差。
+        3. 应用部署上线时需要后端人员支持，解决刷新页面服务端404的问题。
+        
+        注意: 可以使用connect-history-api-fallback 解决问题
+        
+
+### vuex   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%B8%80vuex-%E6%A6%82%E8%BF%B0)
+
+Vuex 是一个 Vue 的 状态管理工具，状态就是数据。
+
+大白话：Vuex 是一个插件，可以帮我们管理 Vue 通用的数据 (多组件共享的数据)。例如：购物车数据 个人信息数
+
+2.使用场景
+
+- 某个状态 在 很多个组件 来使用 (个人信息)
+- 多个组件 共同维护 一份数据 (购物车)
+
+3.优势
+
+- 共同维护一份数据，数据集中化管理
+- 响应式变化
+- 操作简洁 (vuex提供了一些辅助函数)
+
+4.注意：官方原文：
+
+- 不是所有的场景都适用于vuex，只有在必要的时候才使用vuex
+- 使用了vuex之后，会附加更多的框架中的概念进来，增加了项目的复杂度 （数据的操作更便捷，数据的流动更清晰）
+
+Vuex就像《近视眼镜》, 你自然会知道什么时候需要用它~
+
+vuex 的使用 - 创建仓库  [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%B8%89vuex-%E7%9A%84%E4%BD%BF%E7%94%A8---%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93)
+
+多组件共享数据  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/04-%E5%9F%BA%E7%A1%80/07-props%E7%B1%BB%E5%9E%8B%E6%A3%80%E6%9F%A5/components/BaseProgress.vue)    [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%BA%8C%E9%9C%80%E6%B1%82-%E5%A4%9A%E7%BB%84%E4%BB%B6%E5%85%B1%E4%BA%AB%E6%95%B0%E6%8D%AE)
+
+- 核心概念 - state 状态  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/04-%E5%9F%BA%E7%A1%80/07-props%E7%B1%BB%E5%9E%8B%E6%A3%80%E6%9F%A5/components/BaseProgress.vue)    [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%9B%9B%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5---state-%E7%8A%B6%E6%80%81)
+    
+    提供数据   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#2%E6%8F%90%E4%BE%9B%E6%95%B0%E6%8D%AE)
+    
+    访问Vuex中的数据   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#3%E8%AE%BF%E9%97%AEvuex%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE)
+    
+- 通过辅助函数 - mapState获取 state中的数据   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%BA%94%E9%80%9A%E8%BF%87%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0----mapstate%E8%8E%B7%E5%8F%96-state%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE)
+    
+    mapState是辅助函数，帮助我们把store中的数据映射到 组件的计算属性中, 它属于一种方便的用法
+    
+- 开启严格模式及Vuex的单项数据流   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%85%AD%E5%BC%80%E5%90%AF%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F%E5%8F%8Avuex%E7%9A%84%E5%8D%95%E9%A1%B9%E6%95%B0%E6%8D%AE%E6%B5%81)
+    
+    明确 vuex 同样遵循单向数据流，组件中不能直接修改仓库的数据
+    
+- 核心概念-mutations   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%B8%83%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5-mutations)
+    
+    mutations是一个对象，对象中存放修改state的方法
+    
+    - 带参数的 mutations   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%85%AB%E5%B8%A6%E5%8F%82%E6%95%B0%E7%9A%84-mutations)
+        
+        掌握 mutations 传参语法
+        
+    - Vuex中的值和组件中的input双向绑定   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E7%BB%83%E4%B9%A0-vuex%E4%B8%AD%E7%9A%84%E5%80%BC%E5%92%8C%E7%BB%84%E4%BB%B6%E4%B8%AD%E7%9A%84input%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A)
+        
+        实时输入，实时更新，巩固 mutations 传参语法
+        
+    - 辅助函数- mapMutations   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B8%80%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0--mapmutations)
+        
+        mapMutations和mapState很像，它把位于mutations中的方法提取了出来，我们可以将它导入
+        
+- 核心概念 - actions 则负责进行异步操作   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%BA%8C%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5---actions)
+    
+    state是存放数据的，mutations是同步更新数据 (便于监测数据的变化, 更新视图等, 方便于调试工具查看变化)，**actions**则负责进行异步操作
+    
+- 辅助函数 -mapActions   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B8%89%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0--mapactions)
+    
+    mapActions 是把位于 actions中的方法提取了出来，映射到组件methods中
+    
+- 核心概念 - getters   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%9B%9B%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5---getters)
+    
+    除了state之外，有时我们还需要从state中**筛选出符合条件的一些数据**，这些数据是依赖state的，此时会用到getters
+    
+- 核心概念 - module文件夹  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%85%AD%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5---module)    [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%85%AD%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5---module)
+    
+    掌握核心概念 module 模块的创建
+    
+    - 获取模块内的state数据  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/vuex-demo/src/store/modules/user.js)   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B8%83%E8%8E%B7%E5%8F%96%E6%A8%A1%E5%9D%97%E5%86%85%E7%9A%84state%E6%95%B0%E6%8D%AE)
+        
+        掌握核心概念 module 模块的创建
+        
+    - 获取模块内的getters数据  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/vuex-demo/src/components/Son2.vue)   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E5%85%AB%E8%8E%B7%E5%8F%96%E6%A8%A1%E5%9D%97%E5%86%85%E7%9A%84getters%E6%95%B0%E6%8D%AE)
+        
+        掌握模块中 getters 的访问语
+        
+    - 获取模块内的mutations方法  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/vuex-demo/src/components/Son2.vue)   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B9%9D%E8%8E%B7%E5%8F%96%E6%A8%A1%E5%9D%97%E5%86%85%E7%9A%84mutations%E6%96%B9%E6%B3%95)
+        
+        掌握模块中 mutation 的调用语法
+        
+    - 获取模块内的actions方法  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/vuex-demo/src/components/Son2.vue)   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%BA%8C%E5%8D%81%E8%8E%B7%E5%8F%96%E6%A8%A1%E5%9D%97%E5%86%85%E7%9A%84actions%E6%96%B9%E6%B3%95)
+        
+        掌握模块中 action 的调用语法 (同理 - 直接类比 mutation 即可)
+        
+    - Vuex模块化的使用小结  [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%BA%8C%E5%8D%81%E4%B8%80vuex%E6%A8%A1%E5%9D%97%E5%8C%96%E7%9A%84%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93)
+        
+        **1.直接使用**
+        
+        1. state --> $store.state.**模块名**.数据项名
+        2. getters --> $store.getters['**模块名**/属性名']
+        3. mutations --> $store.commit('**模块名**/方法名', 其他参数)
+        4. actions --> $store.dispatch('**模块名**/方法名', 其他参数)
+        
+        **2.借助辅助方法使用**
+        
+        1.import { mapXxxx, mapXxx } from 'vuex'
+        
+        computed、methods: {
+        
+         // **...mapState、...mapGetters放computed中；**
+        
+         // **...mapMutations、...mapActions放methods中；**
+        
+         ...mapXxxx(**'模块名'**, ['数据项|方法']),
+        
+         ...mapXxxx(**'模块名'**, { 新的名字: 原来的名字 }),
+        
+        }
+        
+        2.组件中直接使用 属性 `{{ age }}` 或 方法 `@click="updateAge(2)"`
+        
+- **综合案例**  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/07-vuex/vue-cart-demo)    [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/07-vuex/07-%E7%AC%94%E8%AE%B0.md#%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B---%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE)
+    1. 发请求动态渲染购物车，数据存vuex （存cart模块， 将来还会有user模块，article模块...）
+    2. 数字框可以修改数据
+    3. 动态计算总价和总数量

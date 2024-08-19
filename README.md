@@ -1,3 +1,5 @@
+# vue2    [详细教程官网](https://v2.cn.vuejs.org/v2/guide/syntax.html)
+
 ### 模板语法
 
 创建一个 Vue 实例 [代码](https://github.com/biji-ziliao/vue2-biji/blob/0545a7c1908b198d4e3fdda2fb5812823e07ff11/01-%E6%8C%87%E4%BB%A4/01-%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAVue%E5%AE%9E%E4%BE%8B.html)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/0545a7c1908b198d4e3fdda2fb5812823e07ff11/01-%E6%8C%87%E4%BB%A4/01-%E7%AC%94%E8%AE%B0.md#%E4%B8%89%E5%88%9B%E5%BB%BAvue%E5%AE%9E%E4%BE%8B)

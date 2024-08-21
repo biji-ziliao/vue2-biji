@@ -269,27 +269,27 @@ MyTag组件进行v-model绑定  [代码](https://github.com/biji-ziliao/vue2-bij
 
 路由模块拆分  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/02-%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%9D%97%E6%8B%86%E5%88%86)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
 
-router-link导航链接高亮  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/03-router-link%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E9%AB%98%E4%BA%AE)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+router-link导航链接高亮  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/05-%E8%87%AA%E5%AE%9A%E4%B9%89%E9%AB%98%E4%BA%AE%E7%B1%BB%E5%90%8D/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#3%E9%80%9A%E8%BF%87router-link%E8%87%AA%E5%B8%A6%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%A0%B7%E5%BC%8F%E8%BF%9B%E8%A1%8C%E9%AB%98%E4%BA%AE)
 
 精确匹配和模糊匹配  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/04-%E7%B2%BE%E7%A1%AE%E5%8C%B9%E9%85%8D%E5%92%8C%E6%A8%A1%E7%B3%8A%E5%8C%B9%E9%85%8D/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
 
 自定义高亮类名  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/05-%E8%87%AA%E5%AE%9A%E4%B9%89%E9%AB%98%E4%BA%AE%E7%B1%BB%E5%90%8D/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
 
-导航链接传参1-查询参数传参  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/06-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%821-%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0%E4%BC%A0%E5%8F%82/views)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+导航链接传参1-查询参数传参  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/06-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%821-%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0%E4%BC%A0%E5%8F%82/views/Home.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9B%9B%E5%A3%B0%E6%98%8E%E5%BC%8F%E5%AF%BC%E8%88%AA-%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0%E4%BC%A0%E5%8F%82)
 
-导航链接传参2-动态路由传参  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+导航链接传参2-动态路由传参  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82/views/Home.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E4%BA%94%E5%A3%B0%E6%98%8E%E5%BC%8F%E5%AF%BC%E8%88%AA-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)
 
-动态路由参数-可选符  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+动态路由参数-可选符  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/08-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E5%8F%82%E6%95%B0-%E5%8F%AF%E9%80%89%E7%AC%A6/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%85%AD%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E5%8F%82%E6%95%B0%E7%9A%84%E5%8F%AF%E9%80%89%E7%AC%A6%E4%BA%86%E8%A7%A3)
 
-路由重定向  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+路由重定向  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/09-%E8%B7%AF%E7%94%B1%E9%87%8D%E5%AE%9A%E5%90%91/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E4%B8%83vue%E8%B7%AF%E7%94%B1-%E9%87%8D%E5%AE%9A%E5%90%91)
 
-路由404  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+路由404  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/10-%E8%B7%AF%E7%94%B1404/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%85%ABvue%E8%B7%AF%E7%94%B1-404)
 
-路由模式  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+路由-模式设置  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/11-%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/router/index.js)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E4%B9%9Dvue%E8%B7%AF%E7%94%B1-%E6%A8%A1%E5%BC%8F%E8%AE%BE%E7%BD%AE)
 
-编程式导航-两种跳转语法  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+编程式导航-两种跳转语法  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/12-%E7%BC%96%E7%A8%8B%E5%BC%8F%E5%AF%BC%E8%88%AA-%E4%B8%A4%E7%A7%8D%E8%B7%B3%E8%BD%AC%E8%AF%AD%E6%B3%95/views/Home.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E7%BC%96%E7%A8%8B%E5%BC%8F%E5%AF%BC%E8%88%AA-%E4%B8%A4%E7%A7%8D%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC%E6%96%B9%E5%BC%8F)
 
-编程式导航-跳转传参演示  [代码](https://github.com/biji-ziliao/vue2-biji/tree/master/06-%E8%B7%AF%E7%94%B1/07-%E5%AF%BC%E8%88%AA%E9%93%BE%E6%8E%A5%E4%BC%A0%E5%8F%822-%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+编程式导航-跳转传参演示  [代码](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/13-%E7%BC%96%E7%A8%8B%E5%BC%8F%E5%AF%BC%E8%88%AA-%E8%B7%B3%E8%BD%AC%E4%BC%A0%E5%8F%82%E6%BC%94%E7%A4%BA/views/Home.vue)     [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06-%E8%B7%AF%E7%94%B1/%E8%B7%AF%E7%94%B1%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%B8%80%E7%BC%96%E7%A8%8B%E5%BC%8F%E5%AF%BC%E8%88%AA-path%E8%B7%AF%E5%BE%84%E8%B7%B3%E8%BD%AC%E4%BC%A0%E5%8F%82)
 
 ### 0.1路由介绍   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/05-%E5%9F%BA%E7%A1%80/05-%E7%AC%94%E8%AE%B0.md#%E5%8D%81%E4%BA%94%E8%B7%AF%E7%94%B1%E4%BB%8B%E7%BB%8D)
 
@@ -332,7 +332,7 @@ router-link导航链接高亮  [代码](https://github.com/biji-ziliao/vue2-biji
     
     全局守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/11-%E5%85%A8%E5%B1%80%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/router/index.js)、独享守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/12-%E7%8B%AC%E4%BA%AB%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/router/index.js)、组件内守卫   [笔记](https://github.com/biji-ziliao/vue2-biji/blob/master/06.1-%E8%B7%AF%E7%94%B1/13-%E7%BB%84%E4%BB%B6%E5%86%85%E9%83%A8%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/pages/About.vue)
     
-- **路由器的两种工作模式**
+- 路由器的两种工作模式
     1. 对于一个url来说，什么是hash值？—— #及其后面的内容就是hash值。
     2. hash值不会包含在 HTTP 请求中，即：hash值不会带给服务器。
     3. hash模式：
